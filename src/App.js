@@ -1,11 +1,12 @@
-import './App.css';
-import EnhancedTable from './components/EnhancedTable';
+import React, { Component } from "react";
+import AppTable from "./components/AppTable";
+import EnhancedTable from "./components/AppTable";
 
 function App() {
   return (
-    <div className="App">
-      <EnhancedTable />
-    </div>
+    <React.StrictMode>
+      <AppTable />
+    </React.StrictMode>
   );
 }
 
